@@ -3,7 +3,9 @@
 /* わかりやすいように色をつけています */
 ul {
   border: 4px solid #e8cca9;
+  display: flex;
 }
+
 ul li {
   background-color: #efefef;
   border: 1px solid #ed7a92;
