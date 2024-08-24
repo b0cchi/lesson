@@ -63,6 +63,7 @@ article h3 {
     margin-bottom: 20px;
     font-size: 28px;
     font-weight: 600;
+    /* article h3::beforeと同じ効果 */
     /* background-image: url(../images/h2_icon.png);
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -73,6 +74,15 @@ article h3::before {
     content: url(../images/h2_icon.png);
     position: relative;
     top: 8px;
+}
+
+article section p {
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+article section {
+    margin-bottom: 50px;
 }
 
 .postdate {
@@ -136,4 +146,11 @@ aside nav ul {
     border-bottom: 1px solid #7c5d48;
     padding-bottom: 10px;
     margin-bottom: 22px;
+}
+
+footer {
+    background-color: #523f2e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
 }
